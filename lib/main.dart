@@ -135,28 +135,29 @@ class OnboardingPage1 extends StatelessWidget {
           title: 'Proses Cepat Dan Aman',
           description:
               'gambar dari "https://www.flaticon.com/free-icons/reputation" ',
-          image: const Image(image: AssetImage('reputation.png')).toString(),
+          image: Image.asset('assets/reputation.png').toString(),
           bgColor: Colors.indigo,
         ),
         OnboardingPageModel(
           title: 'Terhubung dengan teman',
           description:
               'gambar dari "https://www.flaticon.com/free-icons/webinar" ',
-          image: const Image(image: AssetImage('webinar.png')).toString(),
+          image: Image.asset('assets/webinar.png').toString(),
           bgColor: const Color(0xff1eb090),
         ),
         OnboardingPageModel(
           title: 'Tandai Favorit',
           description:
               'gambar dari "https://www.flaticon.com/free-icons/brand-book" ',
-          image: const Image(image: AssetImage('brand-book.png')).toString(),
+          image:
+              const Image(image: AssetImage('assets/brandbook.png')).toString(),
           bgColor: const Color(0xfffeae4f),
         ),
         OnboardingPageModel(
           title: 'Ikuti Info Terbaru',
           description:
               'gambar dari "https://www.flaticon.com/free-icons/personal-branding" ',
-          image: const Image(image: AssetImage('personal-branding.png'))
+          image: const Image(image: AssetImage('assets/personalbranding.png'))
               .toString(),
           bgColor: Colors.purple,
         ),
@@ -326,9 +327,9 @@ class _OnboardingPageState extends State<OnboardingPagePresenter> {
 }
 
 class OnboardingPageModel {
-  final String title;
-  final String description;
-  final String image;
+  String title;
+  String description;
+  String image;
   final Color bgColor;
   final Color textColor;
 
