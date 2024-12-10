@@ -2,9 +2,7 @@
 
 ## Jurusan Pendidikan Teknik Elektronika UNM
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
+Digunakan untuk pembelajaran Mahasiswa Universitas Negeri Makassar
 
 - [Fitur On Board Page By Edy Sabara]
 - [Fitur Responsive Setting Page By Aulia Sabril]
